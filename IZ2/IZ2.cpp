@@ -31,7 +31,7 @@ struct mashinaT {
 };
 
 //Функция инициализации системы команд
-//Входные параметры:        struct mashinaT* ptr_mashinaT - указатель на структуру
+//Входные параметры:        struct mashinaT* ptr_mashinaT - указатель на структуру.
 //Выходные данные:          функция ничего не возвращает
 void initsializatsia(struct mashinaT* ptr_mashinaT) {
 	ifstream fin("INPUT.txt");
